@@ -3,10 +3,14 @@
 <head>
   <meta charset="UTF-8">
   <title>About Me</title>
+  <link href="css/styleme.css" type="text/css" rel="stylesheet"/>
 </head>
 <body>
-<h1>Rayhan Rashid</h1>
-<p>My name is Rayhan Rashid and I am lazy, lazy and very lazy</p>
+<div class="intro">
+  <h1>Rayhan Rashid</h1>
+  <p><span>M</span>y name is Rayhan Rashid and I am lazy, lazy and very lazy</p>
+</div>
+
 <h2>Classes this quarter</h2>
 <ul>
   <li>CS 472 : Web Programming</li>
@@ -16,26 +20,60 @@
 </ul>
 <h2>My Favorite Movies</h2>
 <p>
-  (I can't watch a movie in a single sitting I love taking breaks during movies I have a problem I know <b>Thank</b>)
+  (I can't watch a movie in a single sitting I love taking breaks during movies I have a problem I know <b>Thanks</b>)
 </p>
 <ol>
-  <li>Pirates of the Caribbean (The Trilogy only) <a href="https://www.imdb.com/title/tt0325980/?ref_=nv_sr_srsg_0"> IMDB</a></li>
+  <li>Pirates of the Caribbean (The Trilogy only) <a href="https://www.imdb.com/title/tt0325980/?ref_=nv_sr_srsg_0">
+    IMDB</a>
+    <ul class="no_pointer_ul">
+      <li>Director
+        <div>Gore Verbinski</div>
+      </li>
+      <li>Genre
+        <div>Action, Adventure, Fantasy</div>
+      </li>
+      <li>Tagline
+        <div>Take What You Can Give Nothing Back</div>
+      </li>
+      <li>Plot Outline
+        <div>Capt. Jack Sparrow (Johnny Depp) arrives at Port Royal in the Caribbean without a ship or crew. His timing
+          is inopportune, however, because later that evening the town is besieged by a pirate ship. The pirates kidnap
+          the governor's daughter, Elizabeth (Keira Knightley), who's in possession of a valuable coin that is linked to
+          a curse that has transformed the pirates into the undead. A gallant blacksmith (Orlando Bloom) in love with
+          Elizabeth allies with Sparrow in pursuit of the pirates.
+        </div>
+      </li>
+    </ul>
+  </li>
   <li>Star Wars (Entire Series Except Episode IV)<a href="https://www.imdb.com/title/tt0076759/"> IMDB</a></li>
   <li>12 Angry Men (Classic)<a href="https://www.imdb.com/title/tt0050083/"> IMDB</a></li>
 </ol>
 <h2>My Moods</h2>
-<p>Sleepy😪: <img src="./resources/sleepy_img.png" alt="Sleepy Image Meme"> Waky🤔: <img src="./resources/waky_img.png"
-                                                                                         alt="Wake up Image Meme"></p>
+
+<div class="column">
+  <div class="row">
+    <div>Sleepy😪</div>
+    <img src="./resources/sleepy_img.png" alt="Sleepy Image Meme">
+    <div>Waky🤔:</div>
+    <img src="./resources/waky_img.png" alt="Wake up Image Meme">
+  </div>
+</div>
+
 <h2>Fun Facts About My Neighbours</h2>
 <ol>
   <li>Shajedul Islam: Too Bossy (He was my actual boss at work 😜)</li>
   <li>Mehmet: Sometimes I wonder if he exits (Never see him around)</li>
 </ol>
 
+
 <p>
   <a
     href="https://validator.w3.org/nu/?doc=https://raihu123.github.io/wap.github.io/aboutme.html">
-    <img src=http://mumstudents.org/cs472/2013-09/images/w3c-html.png alt="Validate" />
+    <img src=http://mumstudents.org/cs472/2013-09/images/w3c-html.png alt="Validate"/>
+  </a>
+  <a
+    href="https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fraihu123.github.io%2Fwap.github.io%2Faboutme.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en">
+    <img src="resources/css_checker.png" alt="CSS Validator" width="100px"/>
   </a>
 </p>
 
